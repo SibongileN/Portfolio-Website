@@ -1,0 +1,131 @@
+body{
+    background-color: #0f1617;
+}
+.container{
+width :1000px;
+height: 400px;
+background-color: #11191a;
+margin: 10px auto;
+padding: 30px;
+font-size: 25px;
+line-height: 45px;
+box-shadow: -12px -8px 40px rgba(16,24,26)inset;
+
+display: flex;
+}
+
+.about{
+    display: flex;
+    justify-items: center;
+align-items: center ;
+width: 100%;
+gap: 34px;
+}
+
+.profile-picture{
+    width: 280px;
+    height: 250px;
+    border-radius: 50% ;
+    
+    background-color: #283739;
+    
+    
+}
+
+.profile-about{
+    width: 600px;
+    margin: 5px;
+    padding: 20px;
+}
+
+p3{
+    color: #283739;
+}
+       
+
+
+.skills{
+    
+    height: 250px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.skills-gallery{
+    display: flex;
+   justify-items:center;
+   align-items: center;
+   max-width: 80%;
+   margin: 0 auto;
+   
+}
+
+
+ #icons{
+    width: 60px;
+    height: 50px;
+    border-radius: 3px;
+    padding:  25px;
+    margin: 0 auto;
+
+
+}
+
+.heading{
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+h4{
+    margin: 10px 0;
+    
+}
+
+.portfolio-projects{
+    display: flex;
+    max-width: 80%;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    
+}
+
+#project:hover{
+transition: all 200ms ease-in-out ; 
+opacity: 0.8;
+
+}
+
+
+figcaption{
+    text-align: center;
+    font-size: 20px;
+    color: #304547;
+    line-height: 35px;
+}
+
+.project{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    
+  
+}
+hr{
+    max-width: 80%;
+    border-width: 0.5px;
+}
+
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 100;
+
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
