@@ -23,10 +23,10 @@ gap: 34px;
 }
 
 .profile-picture{
-    width: 280px;
+    width: 220px;
     height: 250px;
     border-radius: 50% ;
-    
+    object-fit: fill;
     background-color: #283739;
     
     
@@ -39,7 +39,7 @@ gap: 34px;
 }
 
 p3{
-    color: #283739;
+    color: #304547;
 }
        
 
@@ -122,6 +122,7 @@ hr{
 p{
     font-family:'Courier New', Courier, monospace;
     font-weight: 100;
+    color: aliceblue;
 
 }
 footer{
