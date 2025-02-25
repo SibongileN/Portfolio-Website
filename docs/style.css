@@ -1,5 +1,6 @@
 body{
     background-color: #0f1617;
+    color: aliceblue;
 }
 .container{
 width :1000px;
@@ -39,7 +40,7 @@ gap: 34px;
 }
 
 p3{
-    color: #304547;
+    color: #40595c;
 }
        
 
@@ -75,12 +76,9 @@ p3{
     font-size: 40px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
+    font-weight: 200;
 }
-h4{
-    margin: 10px 0;
-    
-}
+
 
 .portfolio-projects{
     display: flex;
