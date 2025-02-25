@@ -1,5 +1,6 @@
 body{
     background-color: #0f1617;
+    color: aliceblue;
 }
 .container{
 width :1000px;
@@ -39,7 +40,7 @@ gap: 34px;
 }
 
 p3{
-    color: #283739;
+    color: #40595c;
 }
        
 
@@ -72,14 +73,10 @@ p3{
 }
 
 .heading{
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 300;
-}
-h4{
-    margin: 10px 0;
-    
+    font-weight: 200;
 }
 
 .portfolio-projects{
@@ -124,8 +121,11 @@ p{
     font-weight: 100;
     color: aliceblue;
 }
+
+
 footer{
     text-align: center;
     font-size: 20px;
-    padding: 20px;
+    padding: 30px;
+    margin: 0 auto;
 }
