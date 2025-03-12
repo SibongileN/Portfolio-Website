@@ -12,16 +12,34 @@ font-size: 25px;
 line-height: 45px;
 box-shadow: -12px -8px 40px rgba(22,41,43)inset;
 
-display: inline-flex;
 
 }
 
 .about{
     display: flex;
+  
     justify-items: center;
 align-items: center ;
-width: 100%;
+max-width: 100%;
 gap: 34px;
+}
+
+@media (max-width: 1200px) {
+  .about {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media (max-width: 600px) {
+  .about {
+    grid-template-columns: 1fr; 
+  }
 }
 
 .profile-picture{
@@ -35,9 +53,10 @@ gap: 34px;
 }
 
 .profile-about{
-    width: 600px;
+    max-width: 600px;
     margin: 5px;
     padding: 20px;
+    flex-wrap: wrap;
 
 }
 
@@ -89,20 +108,30 @@ p3{
 
 
 .heading{
-    font-size: 40px;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 200;
+  font-size: 30px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
 }
+
+h1{
+font-size: 35px;
+font-weight: 900;
+
+
+}
+h2{font-size: 35px;
+  font-weight: 500;}
 
 h4{
     padding: 20px;
     
 }
 
-.portfolio{
+
+.portfolio-projects{
     display: flex;
-    flex-wrap: wrap;
+ flex-wrap: wrap;
     max-width: 90%;
     justify-content: center;
     align-content: center;
