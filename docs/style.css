@@ -12,8 +12,8 @@ font-size: 25px;
 line-height: 45px;
 box-shadow: -12px -8px 40px rgba(22,41,43)inset;
 
-display: flex;
-flex-wrap: wrap;
+display: inline-flex;
+
 }
 
 .about{
@@ -25,7 +25,7 @@ gap: 34px;
 }
 
 .profile-picture{
-    width: 220px;
+    max-width: 220px;
     height: 250px;
     border-radius: 50% ;
     object-fit: fill;
@@ -129,7 +129,7 @@ figcaption{
 }
 
 .project{
-    width: 350px;
+    max-width: 350px;
     border-radius: 3px
     
   
