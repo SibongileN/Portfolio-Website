@@ -13,6 +13,7 @@ line-height: 45px;
 box-shadow: -12px -8px 40px rgba(22,41,43)inset;
 
 display: flex;
+flex-wrap: wrap;
 }
 
 .about{
