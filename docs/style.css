@@ -131,15 +131,12 @@ h4{
 
 .portfolio-projects{
     display: flex;
- flex-wrap: wrap;
+    flex-wrap: wrap;
     max-width: 90%;
     justify-content: center;
     align-content: center;
     gap: 10px;
-    margin: auto;
-    
-    
-    
+    margin: auto;  
 }
 
 #project:hover{
@@ -179,7 +176,12 @@ footer{
     padding: 20px;
     color: #233335;
     background-color: #ffffff;
-    line-height: 30px;
+    line-height: 40px;
     font-family:'Times New Roman', Times, serif;
     margin-top: 30px;
+}
+
+.contact-icon{
+  width: 25px;
+  height: 25px;
 }
